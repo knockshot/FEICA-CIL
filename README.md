@@ -24,6 +24,12 @@ python3 -mhylearn --options options/LSC/lsc_LK.yaml options/data/longkou.yaml --
 python3 -mhylearn --options options/LSC/lsc_HC.yaml options/data/hanchuan.yaml --initial-increment 4 --increment 4  --device 0 --label LSC_HC_4steps
 ```
 ## Basic Results
-![image](https://github.com/knockshot/FEICA-CIL/tree/main/Img/lk_revise.png)  
-
-![image](https://github.com/knockshot/FEICA-CIL/tree/main/Img/sa_revise.png)
+![FEICA-CIL](./Img/lk_revise.png)  
+<center style="font-size:14px;color:#C0C0C0;text-decoration:underline"> Figure 1. Classification maps of comparative methods on the Longkou dataset. (a) Bic, (b) PODNet, (c) FORSTER, (d) DRC, (e) FEICA-CIL.</center> 
+ <br/>  
+ <br/>  
+ <br/>  
+ <br/>  
+ 
+![FEICA-CIL](./Img/san_revise.png)
+<center style="font-size:14px;color:#C0C0C0;text-decoration:underline"> Figure 2. Classification maps of comparative methods on the Salinas dataset. (a) Bic, (b) PODNet, (c) FORSTER, (d) DRC, (e) FEICA-CIL.</center>  
