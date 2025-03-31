@@ -24,5 +24,6 @@ python3 -mhylearn --options options/LSC/lsc_LK.yaml options/data/longkou.yaml --
 python3 -mhylearn --options options/LSC/lsc_HC.yaml options/data/hanchuan.yaml --initial-increment 4 --increment 4  --device 0 --label LSC_HC_4steps
 ```
 ## Basic Results
-![image] (https://github.com/knockshot/FEICA-CIL/tree/main/Img/lk_revise.png)
-![image] (https://github.com/knockshot/FEICA-CIL/tree/main/Img/sa_revise.png)
+![image](https://github.com/knockshot/FEICA-CIL/tree/main/Img/lk_revise.png)  
+
+![image](https://github.com/knockshot/FEICA-CIL/tree/main/Img/sa_revise.png)
