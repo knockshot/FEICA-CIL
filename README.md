@@ -23,7 +23,7 @@ python3 -mhylearn --options options/LSC/lsc_LK.yaml options/data/longkou.yaml --
 ```python
 python3 -mhylearn --options options/LSC/lsc_HC.yaml options/data/hanchuan.yaml --initial-increment 4 --increment 4  --device 0 --label LSC_HC_4steps
 ```
-## Basic Results
+## Results
 ![FEICA-CIL](./Img/lk_revise.png)  
 <center style="font-size:14px;color:#C0C0C0;text-decoration:underline"> Figure 1. Classification maps of comparative methods on the Longkou dataset. (a) Bic, (b) PODNet, (c) FORSTER, (d) DRC, (e) FEICA-CIL.</center> 
  <br/>  
