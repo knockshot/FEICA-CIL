@@ -33,3 +33,26 @@ python3 -mhylearn --options options/LSC/lsc_HC.yaml options/data/hanchuan.yaml -
  
 ![FEICA-CIL](./Img/san_revise.png)
 <center style="font-size:14px;color:#C0C0C0;text-decoration:underline"> Figure 2. Classification maps of comparative methods on the Salinas dataset. (a) Bic, (b) PODNet, (c) FORSTER, (d) DRC, (e) FEICA-CIL.</center>  
+
+## Acknowledgement
+The implementation extends and refines work originally developed by
+```
+@inproceedings{douillard2020ghost,
+    title={Insight From the Future for Continual Learning},
+    author={Arthur Douillard and Eduardo Valle and Charles Ollion and Thomas Robert and Matthieu Cord},
+    booktitle={arXiv preprint library},
+    year={2020}
+}
+```
+and 
+```
+@ARTICLE{NCSC-TGRS-2022,
+  author={Cai, Yaoming and Zhang, Zijia and Ghamisi, Pedram and  Ding, Yao and Liu, Xiaobo and Cai, Zhihua and Gloaguen, Richard}
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={Superpixel Contracted Neighborhood Contrastive Subspace Clustering Network for Hyperspectral Image}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-13},
+  doi={10.1109/TGRS.2022.3179637}}
+```
